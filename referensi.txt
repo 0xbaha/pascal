@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/6282198/reading-string-from-input-with-space-character	

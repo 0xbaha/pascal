@@ -55,8 +55,16 @@ begin
 	end;
 	
 	// menggabungkan hasil pembacaan
-	for i := 1 to j do hasil_gabung[i] := temp1[i];
-	for i := (1 + j) to (k + j) do hasil_gabung[i] := temp2[i - j];
+	if (n mod 2 = 0) then // jika panjang tulisan genap
+	begin
+		for i := 1 to j do hasil_gabung[i] := temp1[i];
+		for i := (1 + j) to (k + j) do hasil_gabung[i] := temp2[i - j];
+	end
+	else // jika panjang tulisan ganjil
+	begin
+		for i := 1 to k do hasil_gabung[i] := temp2[i];
+		for i := (1 + k) to (j + k) do hasil_gabung[i] := temp1[i - k];	
+	end;
 	
 	// menuliskan hasil penggabungan
 	for i := 1 to n do write(hasil_gabung[i]);

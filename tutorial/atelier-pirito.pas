@@ -41,6 +41,9 @@ begin
 	// pengecekan SUCCESS atau FAILED suatu value pada tabel_S
 	for i := 1 to n do
 	begin
+		// mereset nilai-nilai hitungan pada tabel_hitung menjadi 0
+		for j := 1 to 26 do tabel_hitung[j] := 0;
+		
 		// menghitung karakter tertentu pada masing-masing value tabel_S
 		for j := 1 to length(tabel_S[i]) do 
 		begin

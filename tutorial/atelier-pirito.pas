@@ -96,7 +96,7 @@ end.
 
 {===================================================================
   KETERANGAN:
-  - readln(n)
+  - readln(n);
     HARUS readln() krn read() akan mengganggu proses pembacaan pada
 	readln(S). Setelah read() selesai membaca masukan user, ia akan
 	membuat BARIS BARU (NEW LINE) yg kemudian MENJADI INPUT pada 

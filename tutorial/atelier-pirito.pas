@@ -22,7 +22,7 @@ var
 	
 begin
 	{ INISIALISASI VARIABEL }
-	// inisialisasi
+	// inisialisasi tabel
 	for i := 1 to 100 do tabel_S[i]       := 'xx';
 	for i := 1 to 26  do tabel_hitung[i]  := 0;
 	for i := 1 to 100 do tabel_success[i] := true;
@@ -96,7 +96,8 @@ end.
 
 {===================================================================
   KETERANGAN:
-  - HARUS readln() krn read() akan mengganggu proses pembacaan pada
+  - readln(n)
+    HARUS readln() krn read() akan mengganggu proses pembacaan pada
 	readln(S). Setelah read() selesai membaca masukan user, ia akan
 	membuat BARIS BARU (NEW LINE) yg kemudian MENJADI INPUT pada 
 	readln(S).

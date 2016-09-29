@@ -84,8 +84,8 @@ end.
 	membuat BARIS BARU (NEW LINE) yg kemudian MENJADI INPUT pada 
 	readln(S).
  ===================================================================
-  KODE DI BAWAH UNTUK TROUBLESHOOT:
- 	// TROUBLESHOOT: cek masukan user
+  KODE DI BAWAH UNTUK DEBUGGING:
+ 	// DEBUGGING: mengecek masukan user
 	writeln('---');
 	writeln('daftar lagu:');
 	for i := 1 to n do

@@ -19,9 +19,11 @@ var
 	lagu_dicari				: string;						// nama lagu yg dicari
 	tabel_lagu				: array[1..1000] of string;		// lagu-lagu yg dimiliki
 	tabel_pencarian			: array[1..1000] of string;		// lagu-lagu yg dicari
-	tabel_hasil_pencarian	: array[1..1000] of string;		// hasil pencarian lagu-lagu
 	pencarian_ketemu		: array[1..1000] of boolean;	// utk proses pencarian lagu
 	hasil_pencarian			: integer;						// utk proses pencarian lagu
+	
+	// output
+	tabel_hasil_pencarian	: array[1..1000] of string;		// hasil pencarian lagu-lagu
 	
 begin
 	{ INISIALISASI VARIABEL }

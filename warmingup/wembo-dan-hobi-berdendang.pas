@@ -96,5 +96,5 @@ end.
     writeln('daftar pencarian:');
     for i := 1 to q do
         writeln(tabel_pencarian[i]);
-	writeln('---');
+    writeln('---');
  ===================================================================}

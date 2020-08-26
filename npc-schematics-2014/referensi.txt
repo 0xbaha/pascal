@@ -1,0 +1,3 @@
+http://www.freepascal.org/docs-html/rtl/math/power.html
+http://wiki.freepascal.org/Array
+http://wiki.freepascal.org/for-in_loop
